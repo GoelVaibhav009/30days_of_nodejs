@@ -9,7 +9,7 @@ const product = require('./routes/products.js');
 app.use(bodyparser.urlencoded({extended: false}))
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.use(adminRoute);
+app.use('/admin',adminRoute);
 app.use(product);
 
 app.use((req,res,next)=>{
