@@ -62,6 +62,8 @@ mongoose
     { useNewUrlParser: true, useUnifiedTopology: true }
   )
   .then((result) => {
-    app.listen(8080);
+    app.listen(8080,()=>{
+      console.log("Running on http://localhost:8080");
+    });
   })
   .catch((err) => console.log(err));
