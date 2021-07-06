@@ -1,0 +1,17 @@
+{
+  "name": "mysql_sequilize",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.6.4",
+    "sequelize-cli": "^6.2.0"
+  }
+}
